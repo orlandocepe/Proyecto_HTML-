@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFE53B;
+    
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 20px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a{
+    margin-right: 10px;
+    color: black;
+}
+nav .nav-right-section .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+nav .nav-right-section a img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 400px;
+    margin: 0 auto;
+   margin-bottom: 35px; 
+   padding: 20px 25px 22px 17px;
+   border: black 10px solid;
+   border-radius: 20px;
+}
+main .main-logo img{
+    width: 400px;
+}
+
+main .main-input{
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 400px;
+    border-radius: 100px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input{
+    width: 350px;
+    height: 40px;
+    border: none;
+    outline: none;
+
+background-color: #FFE53B;
+}
+main .main-input-container:hover{
+    box-shadow: 0 7px 7px 0 #e43131;
+}
+main .main-input .search-icon{
+    background-image: url('https://image.flaticon.com/icons/png/512/64/64673.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+}
+main .main-input .micro-icon{
+    background-image: url('https://image.flaticon.com/icons/png/512/1351/1351337.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+main .main-buttons{
+    width: 400px;
+    margin: 0 auto;
+
+}
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons button{
+    height: 36px;
+    background-color: burlywood;
+    border: 0;
+    font-size: 14px;
+    color: black;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-weight: bold; 
+    margin-right: 15px;
+}
+
+main .main-buttons button:hover{
+    border: 3px solid brown;
+    box-shadow: 0 7px 7px brown;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color:rgba(255, 208, 0, 0.979);
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: black;
+     font-weight: bold; 
+}
